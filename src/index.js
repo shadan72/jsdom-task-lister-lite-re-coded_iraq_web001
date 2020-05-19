@@ -8,7 +8,9 @@ const inpuTask=document.getElementById("new-task-description");
     const inputButton=document.getElementsByTagName("input")[1];
     const Ultasks=document.getElementById('tasks');
     let liArr=[]
-    inputButton.addEventListener('submit',adding())
+    inputButton.addEventListener('submit',(event){
+      
+    })
 
 function adding(){
   liArr.push(inpuTask.value)
