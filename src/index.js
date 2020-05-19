@@ -9,7 +9,7 @@ const inpuTask=document.getElementById("new-task-description");
     const Ultasks=document.getElementById('tasks');
     let liArr=[];
     
-    form.addEventListener('submit',(event){
+    form.addEventListener('submit',(event)=>{
       event.preventDefault();
         const items=document.createElement('li')
   items.innerText=inpuTask.value
