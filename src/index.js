@@ -9,7 +9,7 @@ const inpuTask=document.getElementById("new-task-description");
     const Ultasks=document.getElementById('tasks');
     let liArr=[]
     inputButton.addEventListener('submit',(event){
-      e.
+      event.preve
     })
 
 function adding(){
