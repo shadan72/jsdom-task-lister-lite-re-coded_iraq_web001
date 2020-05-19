@@ -10,15 +10,11 @@ const inpuTask=document.getElementById("new-task-description");
     let liArr=[]
     inputButton.addEventListener('submit',(event){
       event.preventDefault();
-    })
-
-function adding(){
-  liArr.push(inpuTask.value)
-  for(let i=0;i<liArr.length;i++)
-  {
-  const items=document.createElement('li')
+        const items=document.createElement('li')
   items.innerText=inpuTask.value
   Ultasks.appendChild(items)
-  }
-}
+    })
+
+
+
 
