@@ -1,6 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  const inpuTask=document.getElementById("new-task-description");
+  
+  
+});
+
+const inpuTask=document.getElementById("new-task-description");
     const inputButton=document.getElementsByTagName("input")[1];
     const Ultasks=document.getElementById('tasks');
     let liArr=[]
@@ -15,6 +19,4 @@ function adding(){
   Ultasks.appendChild(items)
   }
 }
-  
-});
 
