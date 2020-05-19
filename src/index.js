@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const inputButton=document.getElementsByTagName("input")[1];
     const Ultasks=document.getElementById('tasks');
     let liArr=[]
+    inputButton.addEventListener('click',adding())
+
 function adding(){
   liArr.push(inpuTask.value)
   for(let i=0;i<liArr.length;i++)
@@ -16,4 +18,3 @@ function adding(){
   
 });
 
-inputButton.addEventListener('click',adding())
