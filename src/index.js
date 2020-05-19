@@ -10,6 +10,8 @@ function adding(){
   for(let i=0;i<liArr.length;i++)
   {
   const items=document.createElement('li')
+  items.innerText=inpuTask.value
+  Ultasks.appendChild(items)
   }
 }
   
