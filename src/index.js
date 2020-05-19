@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  const inpuTask=document.getElemetById("new-task-description");
+  const inpuTask=document.getElementById("new-task-description");
     const inputButton=document.getElementsByTagName("input")[1];
-    const Ultasks=document.getElemetById('tasks');
+    const Ultasks=document.getElementById('tasks');
     let liArr=[]
 function adding(){
   liArr.push(inpuTask.value)
