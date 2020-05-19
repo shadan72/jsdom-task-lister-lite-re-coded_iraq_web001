@@ -7,7 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
 inputButton.addEventListener('click',adding())
 function adding(){
   liArr.push(inpuTask.value)
+  for(let i=0;i<liArr.length;i++)
+  {
   const items=document.createElement('li')
+  }
 }
   
 });
